@@ -1,0 +1,10 @@
+mqtt_host: broker.emqx.io
+mqtt_port: 1883
+mqtt_client_id: mqtt2slack0001
+mqtt_use_auth: false
+mqtt_username: username
+mqtt_password: password
+mqtt_subscribe_topic: message/to/slack
+slack_api_url: https://slack.com/api/chat.postMessage
+slack_api_token: xoxb-xxxxxxxxxxxxx-xxxxxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxx
+slack_api_channel: slack_channel
